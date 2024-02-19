@@ -1,0 +1,44 @@
+#features {
+  display: flex;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 30px;
+}
+
+.features__left {
+  width: 50%;
+}
+
+.features__left__img {
+  width: 100%;
+}
+
+.features__right {
+  width: 50%;
+}
+
+.features__right__title {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.features__right__text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px 0px;
+}
+
+.feature__item__list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0px;
+}

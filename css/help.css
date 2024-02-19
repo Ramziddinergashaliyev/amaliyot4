@@ -1,0 +1,129 @@
+#help {
+  padding: 50px 0px 100px;
+}
+
+.help__title {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.help__text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px 0px 60px;
+}
+
+.help__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.help__card {
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.help__card:hover {
+  border: 2px solid var(--primaryColor);
+  box-shadow: 1px 1px 100px rgb(226, 220, 220);
+}
+
+.help__card__text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.right,
+.left {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:2px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.right:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+
+.left:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+
+.posetion__card {
+  position: absolute;
+  z-index: 99;
+  bottom: -100px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 30px rgb(226, 217, 217);
+  padding: 40px;
+  border-radius: 8px;
+  background-color: var(--secondaryColor);
+}
+
+.posetion__card__title {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.posetion__card__text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subscribe__btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border: 1px solid var(--primaryColor);
+  border-radius: 10px;
+}
+
+.subscribe__btn:hover {
+  border: 1px solid var(--primaryColor);
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}

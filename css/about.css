@@ -1,0 +1,36 @@
+#about {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondaryColor);
+  box-shadow: 2px 2px 30px gray;
+  padding: 60px 0px;
+  margin-top: 100px;
+  border-radius: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.about__card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__card__title {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about__card__text {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}

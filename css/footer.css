@@ -1,0 +1,36 @@
+footer {
+  position: relative;
+  background: #F8F8F8;
+  padding: 200px 0px;
+}
+
+
+.footer__navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between ;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.footer__title {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer__nav__item__link {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
